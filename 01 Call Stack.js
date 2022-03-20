@@ -1,5 +1,7 @@
 function three() {
     console.log("Last! Haha");
+    throw Error("에러가 발생했습니다.");
+
    }
    function two() {
     three();
@@ -8,7 +10,6 @@ function three() {
     two();
    }
    function zero() {
-    one();
-   }
+    one();   }
    
    zero();
